@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="I help your SaaS business on it's cloud native journey.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <title>Unbound</title>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    html {
+      scroll-padding-top: 76px;
+      /* height of sticky header */
+    }
+
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    .carousel-item {
+      height: 370px !important;
+      background-color: #777;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+
+    }
+
+    @media (max-width: 800px) {
+      .certimg {
+        display: none !important;
+      }
+
+      /* hide carousel controls on small screens */
+      .carousel-control-prev {
+        display: none;
+      }
+
+      .carousel-control-next {
+        display: none;
+      }
+
+      .carousel-caption {
+        right: 10px;
+        left: 10px;
+      }
+    }
+
+    .featurette a img {
+      width: 20%;
+      min-width: 125px;
+    }
+
+    .featurette a span {
+      white-space: nowrap;
+    }
+
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #222 !important;
+        color: #ddd !important;
+      }
+
+      .list-group-item-light {
+        color: #ddd !important;
+        background-color: #222 !important;
+      }
+
+      .list-group-item-light.list-group-item-action:hover {
+        background-color: #222 !important;
+        color: #ddd !important;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="unbound.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/unbound.png" style="width: 200px;"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certs">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#howwework">How I work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!--
+          <li class="nav-item">
+            <a class="nav-link disabled" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+          </li>
+          -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="10000">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+
+
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Cloud Architect and Devops Engineer</h1>
+              <p class="text-justify">As certified cloud architect and devops specialist, I can help your business
+                maximise the benefits of
+                cloud computing and agile development. Whether you need to migrate to the cloud, optimise your existing
+                infrastructure, or build scalable and reliable systems, I have the skills and experience to deliver
+                results.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Distributed systems</h1>
+              <p class="text-justify">With my experience in Distributed systems, I can help your business design and
+                implement flexible and modular systems that can adapt to changing business needs. Microservices enables
+                you to
+                break down complex applications into smaller, independent services that can be developed, tested, and
+                deployed independently. This approach can improve scalability, reliability, and agility, and can help
+                you stay competitive.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h2>Cloud native</h2>
+              <p class="text-justify">As certified AWS and Kubernetes professional, I have extensive experience with the
+                latest cloud
+                technologies. I can help your business take advantage of the benefits of the cloud, including reduced
+                costs, increased scalability, and improved agility. Whether you need help with deploying applications,
+                managing microservices, or building a CICD pipeline, I have the skills and experience to deliver
+                results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading" id="aboutme">About me<span class="text-muted"></span></h2>
+          <p class="text-justify">Hi, I'm Anton. I'm an experienced entrepreneur and technologist with a passion
+            for helping
+            organisations leverage the latest technologies to improve their operations and drive innovation. I have 20
+            years of experience in the industry, with a focus on cloud, distributed computing, containers, and devops.
+            I've worked as a solutions architect for AWS and now consult for organisations looking to optimise their
+            technology stack.
+
+            In addition to my technical skills, I am also a strong leader and problem-solver. I am dedicated to helping
+            organisations achieve their goals and staying at the forefront of the latest technological developments. I
+            am also committed to maintaining a healthy work-life balance and enjoy staying active in my personal life.
+            With my expertise and personal qualities, I can be a valuable asset to any organisation seeking to thrive in
+            today's digital landscape. I live in Belgium (Flanders) and speak Dutch and English fluently.</p>
+          <p><a href="https://www.linkedin.com/in/antonvancauteren/" target="_blank">
+              <img style="width: 48px; min-width: 48px; cursor: pointer;" src="img/linkedin.png" alt="LinkedIn">
+            </a></p>
+        </div>
+        <div class="col-md-5">
+          <img src="img/anton.png" style="max-width: 100%;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2" id="certs">
+          <h2 class="featurette-heading">Certifications</h2>
+          <p>
+            <a class="text-decoration-none"
+              href="https://www.credly.com/badges/40ba9d21-5ab6-403c-8e79-a0945b66b9e7/public_url" target="_blank">
+              <img src="img/devopspro.png" alt="AWS DevOps Engineer - Professional certificate">
+            </a>
+          </p>
+          <p>
+            <a class="text-decoration-none"
+              href="https://www.credly.com/badges/9dc67949-9452-4bc7-b76b-5a3da57ac63d/public_url" target="_blank">
+              <img src="img/sasoc.png" alt="AWS Solutions Architect - Associate certificate">
+            </a>
+
+            <a class="text-decoration-none"
+              href="https://www.credly.com/badges/ca74876e-10d7-419f-b6bb-7f10f40bdd8b/public_url" target="_blank">
+              <img src="img/devassoc.png" alt="AWS Certified Developer – Associate">
+            </a>
+          </p>
+          <p>
+            <a class="text-decoration-none"
+              href="https://www.credly.com/badges/c3c53300-249c-4668-ad5a-2536b73843cb/public_url" target="_blank">
+              <img src="img/cka.png" alt="CKA certificate">
+            </a>
+            <a class="text-decoration-none"
+              href="https://www.credly.com/badges/e5b5b42a-cc68-4fe8-b5d8-abe5dde1f72d/public_url" target="_blank">
+              <img src="img/cks.png" alt="CKS certificate">
+            </a>
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1"
+          onclick="window.open('https://www.credly.com/badges/40ba9d21-5ab6-403c-8e79-a0945b66b9e7/public_url','_blank')">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto certimg"
+            src="img/devopspro.png" width="500" focusable="false" alt="AWS Certified Devops Engineer professional" />
+
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="howwework">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">How I work</h2>
+          <p class="text-justify">My goal is to help (SaaS) businesses grow and succeed by providing expert
+            guidance and support
+            in the design and implementation of their cloud infrastructure.
+          <p class="text-justify">My services include cloud architecture, Distributed systems, Microservices
+            architecture using containers, serverless, and
+            other related technologies. I take a holistic approach to consulting, considering the unique challenges and
+            opportunities facing each of our clients, and developing tailored solutions that meet their specific needs.
+          </p>
+          <p class="text-justify">I begin by working closely with my clients to understand their goals and requirements,
+            and then use my
+            expertise to design and implement a cloud infrastructure that supports those needs. Throughout the process,
+            I provide regular communication and updates, and am always available to answer questions and provide
+            support. Once the solution is in place, I offer ongoing maintenance and support to ensure that it continues
+            to meet the evolving needs of your business.</p>
+          <p class="text-justify">Overall, my goal is to provide you with the knowledge and expertise you need to
+            confidently and
+            successfully navigate the complexities of the cloud, and to help you unlock the full potential of your
+            (SaaS) business.</p>
+          </p>
+        </div>
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette" id="contact">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Contact</h2>
+          <p class="text-justify">Send me a message on LinkedIn or email anton&#64;unbound.ws, I'll get back to you
+            asap.</p>
+          <p><a href="https://www.linkedin.com/in/antonvancauteren/" target="_blank">
+              <img style="width: 48px; min-width: 48px; cursor: pointer;" src="img/linkedin.png" alt="LinkedIn">
+            </a></p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>2022 Unbound.ws </p>
+    </footer>
+  </main>
+
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script language="javascript" type="text/javascript">
+    const navLinks = document.querySelectorAll('.nav-item')
+    const menuToggle = document.getElementById('navbarCollapse')
+    const bsCollapse = new bootstrap.Collapse(menuToggle, { toggle: false })
+    navLinks.forEach((l) => {
+      l.addEventListener('click', () => { bsCollapse.toggle() })
+    })
+  </script>
+
+
+
+</body>
+
+</html>
